@@ -15,10 +15,10 @@ class App < Sinatra::Base
     # Write your code here!
     get '/friends' do
   @friends = ['Emily Wilding Davison', 'Harriet Tubman', 'Joan of Arc', 'Malala Yousafzai', 'Sojourner Truth']
- 
+
   erb :friends
 end
   end
 
-  
+
 end
